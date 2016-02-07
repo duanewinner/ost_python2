@@ -1,0 +1,7 @@
+Modify the classFactory.py source code so that the DataRow class returned by the build_row function has another method:
+
+retrieve(self, curs, condition=None)
+
+self is (as usual) the instance whose method is being called, curs is a database cursor on an existing database connection, and condition (if present) is a string of condition(s) which must be true of all received rows.
+
+The retrieve method should be a generator, yielding successive rows of the result set until it is completely exhausted. Each row should be a next object of type DataRow.

@@ -1,0 +1,6 @@
+From: dwinner@utrs.com
+To: duane@duanewinner.net
+Subject: Handling Emails With Python
+ 
+
+This email was sent using Python's smtplib!

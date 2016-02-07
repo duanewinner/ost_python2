@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import mysql.connector
+from database import login_info
+
+db = mysql.connector.Connect(**login_info)
+cursor = db.cursor()
+
+def import_jokes(jdir):
+    """
+    Imports the contents of "joke archive"; which must be:
+    A directory of files, where each file is a text file
+    containing a joke.
+    """
+    print("HEY!")

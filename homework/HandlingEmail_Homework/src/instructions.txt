@@ -1,0 +1,8 @@
+Here are your instructions:
+
+
+Write a function that takes an email address, a string, and a list argument. It should return an email message addressed to the email address passed as the first argument, with the second argument as the message body. If the list is non-empty, then each list item should be treated as the name of a file and the corresponding file should be attached (with an appropriate MIME type) to the message.
+
+Please include any files to attach in the same folder as your program. There is no need to send it as an email with smtp, though you may wish to print it as a string as a part of testing.
+
+
